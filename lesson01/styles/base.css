@@ -1,71 +1,128 @@
-/* Include the fonts from Google Fonts API */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Apply styles to the body */
-body {
-    font-family: 'Roboto', sans-serif;
+body{
+    width: 767px;;
+	margin: 0 auto;
 }
 
-/* Center the header text */
+
 header {
-    text-align: center;
-    background-color: darkslategray;
-    text-decoration-color: white;
-}
-.name {
-    color: white;
-}
-/* Center the navigation links */
-nav {
-    text-align: center;
+	display: flex;
+    flex-direction: row;
+	align-items: center;	
+    background-color: rgb(51, 51, 51);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
-/* Style the navigation links (optional) */
-nav a {
-    display: inline-block;
-    margin: 0 10px; /* Add margin to space out the links */
-    text-decoration: none;
-    color: #333;
-}
-
-/* Center the main content horizontally */
 main {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* Layout the main column cards using CSS Grid */
-main {
-    display: grid;
-    gap: 20px;
-}
-
-/* Apply styles to the card sections */
-.card {
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+   
+
+}
+.name{
+    margin-left: 30px;
+}
+h1 {
+	font-size: 2rem;
 }
 
-/* Apply styles to headings */
-h1, h2, h3 {
-    color: #333;
+nav {
+	background-color: #36454f;
+    padding: 10px;
 }
 
-/* Apply styles to navigation links */
+nav ul {
+	list-style-type: none;
+}
+
 nav a {
     display: block;
-    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    
+}
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ ul li a{
     text-decoration: none;
     color: #333;
+    /* padding: 10px; */
+
 }
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
+}
+
+
+header img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+header .name {
+    color: white;
+}
+
 
 nav a:hover {
-    color: #FF5733; /* Change color on hover */
+    background-color: #ddd;
 }
 
-/* Apply styles to footer */
-footer {
+p{
     text-align: center;
-    padding: 20px 0;
+    font-size: large;
 }
+
+
+.card1 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+
+
+}
+.card2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card h3 {
+    color: rgb(26, 4, 4);
+    text-align: center;
+    background-color: rgb(15, 235, 114);
+    padding: 3%;
+   
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
