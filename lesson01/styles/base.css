@@ -90,6 +90,12 @@ p{
 
 
 }
+.learning{
+    background-color: rgb(51, 51, 51);		
+    padding: 10px;
+    color: white;
+    /* width: 500px; */
+}
 .card2 {
     border: 1px solid #ccc;
     padding: 20px;
